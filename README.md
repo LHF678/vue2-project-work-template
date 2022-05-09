@@ -1,4 +1,4 @@
-# vue-virtual-scroll-lhf
+# vue2-project-work-template
 
 ## Project setup
 ```
