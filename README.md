@@ -1,24 +1,28 @@
 # vue2-project-work-template
 
-## Project setup
+## 安装项目依赖
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### 开发阶段：编译、热重载
 ```
 yarn serve
+yarn dev
 ```
 
-### Compiles and minifies for production
+### 生成阶段：编译打包
 ```
 yarn build
 ```
 
-### Lints and fixes files
+### 代码风格检测修复
 ```
 yarn lint
+yarn lint:style
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 代码风格
+- eslint
+- prettier
+- stylelint
