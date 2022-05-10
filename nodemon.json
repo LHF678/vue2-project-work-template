@@ -1,0 +1,8 @@
+{
+  "verbose": true,
+  "watch": [
+    "mock/*",
+    "vue.config.js",
+    ".env*"
+  ]
+}
