@@ -17,12 +17,16 @@
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
     "@samhammer/vue-cli-plugin-stylelint": "^2.1.0",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "babel-eslint": "^10.1.0",
+    "commitizen": "^4.2.4",
     "css-properties-sorting": "^1.0.10",
+    "cz-customizable": "^6.3.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
@@ -43,6 +47,11 @@
     "stylelint-order": "^5.0.0",
     "vue-cli-plugin-style-resources-loader": "^0.1.5",
     "vue-template-compiler": "^2.6.14"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
+    }
   },
   "lint-staged": {
     "src/**/*.{js,vue}": "yarn lint",
