@@ -1,8 +1,10 @@
 {
-  "name": "vue-virtual-scroll-lhf",
+  "name": "vue2-project-work-template",
+  "description": "基于 vue2 项目开发工程模板",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "yarn dev",
     "dev": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
