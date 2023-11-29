@@ -6,8 +6,7 @@ module.exports = {
     { value: 'docs', name: 'docs:     文档的变更' },
     {
       value: 'style',
-      name:
-        'style:    不改变代码功能的变动(如删除空格、格式化、去掉末尾分号等)',
+      name: 'style:    不改变代码功能的变动(如删除空格、格式化、去掉末尾分号等)',
     },
     {
       value: 'refactor',
@@ -20,7 +19,7 @@ module.exports = {
     { value: 'test', name: 'test:     添加、修改测试用例' },
     {
       value: 'build',
-      name: 'build:    构建流程、外部依赖变更，比如升级 npm 包、修改 webpack 配置'
+      name: 'build:    构建流程、外部依赖变更，比如升级 npm 包、修改 webpack 配置',
     },
     { value: 'ci', name: 'ci:       修改了 CI 配置、脚本' },
     {
@@ -28,7 +27,6 @@ module.exports = {
       name: 'chore:    对构建过程或辅助工具和库的更改,不影响源文件、测试用例的其他操作',
     },
     { value: 'revert', name: 'revert:   回滚 commit' },
-
   ],
 
   // scope 类型，建议前端负责人根据该项目的模块命名
@@ -43,7 +41,7 @@ module.exports = {
   ].map(([value, description]) => {
     return {
       value,
-      name: `${value.padEnd(30)} (${description})`
+      name: `${value.padEnd(30)} (${description})`,
     };
   }),
 
@@ -65,7 +63,7 @@ module.exports = {
    */
   // 覆写提示的信息
   messages: {
-    type: "请确保你的提交遵循了原子提交规范！\n选择你要提交的类型:",
+    type: '请确保你的提交遵循了原子提交规范！\n选择你要提交的类型:',
     scope: '\n选择一个 scope (可选):',
     // 选择 scope: custom 时会出下面的提示
     customScope: '请输入自定义的 scope:',
