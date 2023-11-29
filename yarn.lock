@@ -9849,6 +9849,11 @@ vue@^2.6.14:
   resolved "http://npm.51baiwang.com/vue/-/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
   integrity sha1-5RqlJQJQ1Wmj+606ilpofWA24jU=
 
+vuex@^3.6.2:
+  version "3.6.2"
+  resolved "http://npm.51baiwang.com/vuex/-/vuex-3.6.2.tgz#236bc086a870c3ae79946f107f16de59d5895e71"
+  integrity sha1-I2vAhqhww655lG8QfxbeWdWJXnE=
+
 watchpack@^2.3.1:
   version "2.4.0"
   resolved "http://npm.51baiwang.com/watchpack/-/watchpack-2.4.0.tgz#fa33032374962c78113f93c7f2fb4c54c9862a5d"
