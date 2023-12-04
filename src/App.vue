@@ -8,4 +8,8 @@ export default {
 };
 </script>
 
-<style lang="less"></style>
+<style lang="less">
+.app-container {
+  color: @myColor;
+}
+</style>

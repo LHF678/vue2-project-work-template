@@ -1,0 +1,15 @@
+{
+    "errorCode": 0,
+    "errorMsg": "success",
+    "message": "处理成功",
+    "success": true,
+    "data": {
+      "total|0-50": 20,
+      "items|10": [
+        {
+          "id": "@id()",
+          "create_time": "@date() @time()"
+        }
+      ]
+    }
+  }
