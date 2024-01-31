@@ -1253,6 +1253,15 @@
   resolved "http://npm.51baiwang.com/@leichtgewicht%2fip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
+"@liuhanfei/mock-service@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.npmmirror.com/@liuhanfei/mock-service/-/mock-service-1.0.8.tgz#8c842632be78828382830faf6ec88b6b80fbf5dc"
+  integrity sha512-7uh0q+fbHy+XNYUZfgzVGcPlOMyZMnJnK5GFVHil3ULsxk3+cL9H7n5tTkxw7XXeSsbTR37A6dP/YjVuTUlhfg==
+  dependencies:
+    chalk "^4.1.2"
+    fs-extra "^11.2.0"
+    mockjs "^1.1.0"
+
 "@node-ipc/js-queue@2.0.3":
   version "2.0.3"
   resolved "http://npm.51baiwang.com/@node-ipc%2fjs-queue/-/js-queue-2.0.3.tgz#ac7fe33d766fa53e233ef8fedaf3443a01c5a4cd"
@@ -2972,6 +2981,11 @@ combined-stream@^1.0.6, combined-stream@^1.0.8, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
+commander@*:
+  version "11.1.0"
+  resolved "https://registry.npmmirror.com/commander/-/commander-11.1.0.tgz#62fdce76006a68e5c1ab3314dc92e800eb83d906"
+  integrity sha512-yPVavfyCcRhmorC7rWlkHn15b4wDVgVmBA7kV4QVBsF7kv/9TKJAbAXVTxvTnwP8HHKjRCJDClKbciiYS7p0DQ==
+
 commander@^2.20.0:
   version "2.20.3"
   resolved "http://npm.51baiwang.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
@@ -4551,6 +4565,15 @@ fs-extra@^10.0.0:
   version "10.1.0"
   resolved "http://npm.51baiwang.com/fs-extra/-/fs-extra-10.1.0.tgz#02873cfbc4084dde127eaa5f9905eef2325d1abf"
   integrity sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
+fs-extra@^11.2.0:
+  version "11.2.0"
+  resolved "https://registry.npmmirror.com/fs-extra/-/fs-extra-11.2.0.tgz#e70e17dfad64232287d01929399e0ea7c86b0e5b"
+  integrity sha512-PmDi3uwK5nFuXh7XDTlVnS17xJS7vW36is2+w3xcv8SVxiB4NyATf4ctkVY5bkSjX0Y4nbvZCq1/EjtEyr9ktw==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
@@ -6557,6 +6580,13 @@ mkdirp@^0.5.1, mkdirp@^0.5.5:
   integrity sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==
   dependencies:
     minimist "^1.2.6"
+
+mockjs@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmmirror.com/mockjs/-/mockjs-1.1.0.tgz#e6a0c378e91906dbaff20911cc0273b3c7d75b06"
+  integrity sha512-eQsKcWzIaZzEZ07NuEyO4Nw65g0hdWAyurVol1IPl1gahRwY+svqzfgfey8U8dahLwG44d6/RwEzuK52rSa/JQ==
+  dependencies:
+    commander "*"
 
 module-alias@^2.2.2:
   version "2.2.2"

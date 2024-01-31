@@ -3,8 +3,15 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   name: 'App',
+  mounted() {
+    axios.get('/api/get/file/details').then((res) => {
+      console.log(res);
+    });
+  },
 };
 </script>
 
